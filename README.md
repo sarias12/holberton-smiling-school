@@ -1,76 +1,76 @@
-# 0x07. Accessibility
+# 0x0B. Implement a design with bootstrap
 
-## Resources:books:
-Read or watch:
-* [Accessibility is not a feature. — Ethan Marcotte](https://intranet.hbtn.io/rltoken/UTlxQ9qb213Y6SP7kuCsPQ)
-* [How to Meet WCAG (Quickref Reference](https://intranet.hbtn.io/rltoken/8c9nVrmNWVJ--pUn1dmKVQ)
-* [Web Accessibility Guidebook for Developers](https://intranet.hbtn.io/rltoken/l-XGxAh6sCv8_IahP5izxg)
-* [Testing with assistive technologies - Service Manual - GOV.UK](https://intranet.hbtn.io/rltoken/bMm4g4OpeE-Iqxdtzlu0ig)
-* [A11Y Style Guide](https://intranet.hbtn.io/rltoken/1q0B-A6MYnUuTPZOdKgIsg)
-* [Building Pylon-Free Web Pages: An Intro to Web Accessibility](https://intranet.hbtn.io/rltoken/jTApGoNHRaI2HQs8UqGq2g)
-* [I Threw Away my Mouse - 24 Accessibility](https://intranet.hbtn.io/rltoken/8PcPbGbZvmBtnn9dTB2LLQ)
-* [I Used a Switch Control for a Day - 24 Accessibility](https://intranet.hbtn.io/rltoken/B7CCmybCPdoR-vy0Ljf_Kw)
-* [The Myths of Color Contrast Accessibility](https://intranet.hbtn.io/rltoken/RHFJ-QN-x6sBgYDHNmAmhg)
-* [IAAP Certification](https://intranet.hbtn.io/rltoken/X2PNKQCPNBv9Kt4DvzEGqw)
-* [Accessibility Blog | Deque Systems](https://intranet.hbtn.io/rltoken/F6MKiJDGC7oahx5l1PG4tA)
-* [Tink - Léonie Watson – On technology, food & life in the digital age](https://intranet.hbtn.io/rltoken/e2vhJAVwJgCSj_qWh5d9OA)
-* [Articles » Simply Accessible](https://intranet.hbtn.io/rltoken/JMoCv9TlEIkMM6KGXcBIlA)
-* [Accessibility Weekly](https://intranet.hbtn.io/rltoken/46XM-mspubGF2aZaPLtlTQ)
-* [European label (Web Accessibility): Euracert - Home page](https://intranet.hbtn.io/rltoken/DsxGlFcMObADMOuJ6y8nDw)
-* [Section508.gov | GSA Government-wide IT Accessibility Program](https://intranet.hbtn.io/rltoken/bwPuWIeb6MMZCopmv5KJOA)
+In this project, I will implement 3 web pages with Bootstrap.
 
 ---
-## Learning Objectives:bulb:
-What you should learn from this project:
+## Interactions note:
+
+* Web pages must switch to the tablet version when the screen width is 768px
+* Web pages must switch to the mobile version when the screen width is 576px
+* button hover/active: opacity: 0.9
 
 ---
 
-### [0. make the "works" card focus visible](./keyboard/01-styles.css)
-* Start with this 00-styles.css file:
+### [ 1. Header first](./0-homepage.html)
+* Let’s start by the Homepage: create the header/hero piece
 
 
-### [1. add the skip-links](./skip-links/01-index.html)
-* Using the 00-index.html provided in the previous task, in your skip-links/01-index.html file, just after the <body> HTML open tag
+### [2. Carousel of quotes](./1-homepage.html)
+* By using a Carousel component of Bootstrap, create this Carousel of quotes.
 
 
-### [2. Elements must have sufficient color contrast](./fix-a11y/01-index.html)
-* You are given this fix-a11y/00-index.html starter file:
+### [3. Popular video](./2-homepage.html)
+* By using a Carousel component of Bootstrap, create this Carousel of video cards.
 
 
-### [3. Documents must have <title> element to aid in navigation](./fix-a11y/02-index.html)
-* Taking your code from the previous task, in your fix-a11y/02-index.html file
+### [4. Row of smiles](./3-homepage.html)
+* Create the section “Free membership”
 
 
-### [4. <html> element must have a lang attribute](./fix-a11y/03-index.html)
-* Taking your code from the previous task, in your fix-a11y/03-index.html file
+### [5. Latest videos](./4-homepage.html)
+* Copy the block “Most popular tutorials” to “Latest videos”
 
 
-### [5. Images must have alternate text](./fix-a11y/04-index.html)
-* Taking your code from the previous task, in your fix-a11y/04-index.html file
+
+### [6. ... and the footer!](./homepage.html)
+* Create the footer
 
 
-### [6. Form elements must have labels](./fix-a11y/05-index.html)
-* Taking your code from the previous task, in your fix-a11y/05-index.html file, locate the form
+### [7. Pricing - header ](./0-pricing.html)
+* Now, let’s do the pricing page: create the header/hero piece
 
 
-### [7. Links must have discernible text](./fix-a11y/06-index.html)
-* In your fix-a11y/06-index.html file
+### [8. Prices grid](./1-pricing.html)
+* Create the prices grid
 
 
-### [8. Zooming and scaling must not be disabled](./fix-a11y/07-index.html)
-* In your fix-a11y/07-index.html file
+### [9. Quotes section ](./2-pricing.html)
+* Same as the Homepage, create the Carousel of quotes
 
 
-### [9. Heading levels should only increase by one and all page content must be contained by landmarks](./fix-a11y/08-index.html)
-* You can install the headingsMap extension to have a visual representation of your headings.
+### [10. FAQ](./3-pricing.html)
+* Create the FAQ grid
 
 
-### [10. Document must have one main landmark](./fix-a11y/09-index.html)
-* You can install the Landmarks extension to visually locate the landmarks on your pages.
+### [11. Close the page with a footer](./pricing.html)
+* Create the footer
 
 
-### [11. More than 2 elements become list](./fix-a11y/10-index.html)
-* Automated tools can’t always alert about elements that should exist as a list.
+### [12. Courses - header](./0-courses.html)
+* Now, let’s do the courses page: create the header/hero piece
+
+
+### [13. Search filters ](./1-courses.html)
+* Create the search filters section
+
+
+### [14. List of result](./2-courses.html)
+* Create the result section of courses
+
+
+### [15. Close the page with a footer](./courses.html)
+* Create the footer
+
 
 ---
 
