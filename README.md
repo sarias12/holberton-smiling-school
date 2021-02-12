@@ -91,7 +91,7 @@ In this project, I will implement 3 web pages with Bootstrap.
 
 ### Mobile Version
 
-![Image 7](./Mobile/01_SMILESCHOOL_LANDING_mobile@2x.pngg)
+![Image 7](./Mobile/01_SMILESCHOOL_LANDING_mobile@2x.png)
 ![Image 8](./Mobile/02_SMILESCHOOL_PRICING_mobile@2x.png)
 ![Image 9](./Mobile/03_SMILESCHOOL_COURSES_mobile@2x.png)
 ---
