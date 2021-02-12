@@ -72,6 +72,28 @@ In this project, I will implement 3 web pages with Bootstrap.
 * Create the footer
 
 
+## Here the final result:
+
+
+### Desktop Version
+
+![Image 1](./Desktop/01_SMILESCHOOL_LANDING_desktop@2x.png)
+![Image 2](./Desktop/02_SMILESCHOOL_PRICING_desktop@2x.png)
+![Image 3](./Desktop/03_SMILESCHOOL_COURSES_desktop@2x.png)
+
+
+### Tablet Version
+
+![Image 4](./Tablet/01_SMILESCHOOL_LANDING_tablet@2x.png)
+![Image 5](./Tablet/02_SMILESCHOOL_PRICING_tablet@2x.png)
+![Image 6](./Tablet/03_SMILESCHOOL_COURSES_tablet@2x.png)
+
+
+### Mobile Version
+
+![Image 7](./Mobile/01_SMILESCHOOL_LANDING_mobile@2x.pngg)
+![Image 8](./Mobile/02_SMILESCHOOL_PRICING_mobile@2x.png)
+![Image 9](./Mobile/03_SMILESCHOOL_COURSES_mobile@2x.png)
 ---
 
 ## Author
